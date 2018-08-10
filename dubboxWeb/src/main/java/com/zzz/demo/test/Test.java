@@ -12,6 +12,6 @@ public class Test {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         context.start();
-        context.getBean(DemoService.class).hello("我叫张东");
+        context.getBean(DemoService.class).hello("我叫xx");
     }
 }
